@@ -1,0 +1,28 @@
+# ignore properties file
+*.properties
+
+# ignore netbeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+target/
+nbactions.xml
+
+# ignore maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# spark dir
+spark-warehouse
+
+#data file
+*.data
