@@ -5,14 +5,11 @@
  */
 package com.kien.sparkmlexample;
 
-import com.kien.sparkmlexample.domain.Rating;
-import com.kien.sparkmlexample.domain.Transaction;
 import com.kien.sparkmlexample.utils.SparkUtil;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -21,8 +18,6 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.apache.spark.api.java.JavaRDD;
-import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.ml.fpm.FPGrowth;
 import org.apache.spark.ml.fpm.FPGrowthModel;
 import org.apache.spark.sql.Dataset;
